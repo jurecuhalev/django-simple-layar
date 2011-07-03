@@ -1,4 +1,3 @@
-
 from django.conf.urls.defaults import *
 from django.conf import settings
 
@@ -15,7 +14,9 @@ urlpatterns = patterns('',
 
     # Uncomment the next line to enable the admin:
     (r'^admin/', include(admin.site.urls)),
-
+    #(r'^$', 'invaders.web.views.index'),
+    
+    url(r'^layar_endpoint/$', 'web.views.invader_layar'),
 )
 
 if settings.DEBUG:

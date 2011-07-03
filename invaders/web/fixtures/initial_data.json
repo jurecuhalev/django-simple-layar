@@ -3,10 +3,10 @@
         "pk": 1, 
         "model": "web.invaderlocation", 
         "fields": {
-            "descriptipn": "", 
+            "description": "", 
             "image_url": "/static/invader1.jpg", 
             "name": "\u010cevljarski most", 
-            "point": "POINT (14.5057350397109985 46.0485105914239625)"
+            "location": "POINT (14.5057350397109985 46.0485105914239625)"
         }
     }
 ]
