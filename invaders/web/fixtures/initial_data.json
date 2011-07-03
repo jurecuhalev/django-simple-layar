@@ -3,10 +3,20 @@
         "pk": 1, 
         "model": "web.invaderlocation", 
         "fields": {
-            "description": "", 
+            "location": "POINT (14.5091330000000003 46.0880510000000001)", 
             "image_url": "/static/invader1.jpg", 
             "name": "\u010cevljarski most", 
-            "location": "POINT (14.5057350397109985 46.0485105914239625)"
+            "description": ""
+        }
+    }, 
+    {
+        "pk": 2, 
+        "model": "web.invaderlocation", 
+        "fields": {
+            "location": "POINT (14.5033259999999995 46.0496460000000027)", 
+            "image_url": "/static/invader2.jpg", 
+            "name": "Dvorni trg", 
+            "description": ""
         }
     }
 ]

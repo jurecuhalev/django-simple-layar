@@ -8,3 +8,5 @@ class InvaderLocation(models.Model):
     image_url = models.CharField(max_length=256)
 
     objects = models.GeoManager()
+
+    def __unicode__(self): return self.name
