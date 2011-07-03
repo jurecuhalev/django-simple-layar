@@ -12,6 +12,6 @@ class InvaderLayar(LayarView):
 
     def poi_from_ljubljanainvaders_item(self, item):
         return POI(id=item.id, lat=item.location.y, lon=item.location.x, title=item.name,
-                    line2=item.description, line3='Distance: %distance%', image_url='http://188.230.158.192:8000'+item.image_url)
+                    line2=item.description, line3='Distance: %distance%', image_url='http://np794.o1.gondor.io'+item.image_url)
 
 invader_layar = InvaderLayar()
