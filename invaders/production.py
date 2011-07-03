@@ -1,0 +1,2 @@
+
+from invaders.settings import *
