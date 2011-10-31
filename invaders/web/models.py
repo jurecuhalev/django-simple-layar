@@ -4,7 +4,7 @@ class Location(models.Model):
     name = models.CharField(max_length=100)
     description = models.TextField(null=True, blank=True)
     location = models.PointField()
-    image_url = models.CharField(max_length=256)
+    image_url = models.ImageField(upload_to="uploads", max_length=256)
 
     objects = models.GeoManager()
 

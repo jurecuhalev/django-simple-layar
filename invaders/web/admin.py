@@ -1,4 +1,4 @@
 from django.contrib.gis import admin
-from web.models import InvaderLocation
+from web.models import Location
 
-admin.site.register(InvaderLocation) #, admin.GeoModelAdmin)
+admin.site.register(Location) #, admin.GeoModelAdmin)

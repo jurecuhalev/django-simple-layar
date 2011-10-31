@@ -17,6 +17,7 @@ urlpatterns = patterns('',
     #(r'^$', 'invaders.web.views.index'),
     
     url(r'^layar_endpoint/$', 'web.views.invader_layar'),
+    (r'^admin-media/(.*)', 'django.views.static.serve', {'document_root' : settings.MEDIA_ROOT+'/admin-media', 'show_indexes' : True}),
 )
 
 if settings.DEBUG:
@@ -24,4 +25,5 @@ if settings.DEBUG:
         (r'^media/(?P<path>.*)$', 'django.views.static.serve',
          {'document_root': settings.MEDIA_ROOT}),
     )
+
 
