@@ -1,0 +1,16 @@
+*.swp
+*~
+*.pyc
+/invaders/localsettings.py
+/docs/_build/
+*.svn*
+.svn*
+.installed.cfg
+bin
+develop-eggs
+dist
+downloads
+eggs
+parts
+src/*.egg-info
+.*
