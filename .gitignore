@@ -3,6 +3,7 @@
 *.pyc
 /invaders/localsettings.py
 /docs/_build/
+/invaders/media/upload/*
 *.svn*
 .svn*
 .installed.cfg
