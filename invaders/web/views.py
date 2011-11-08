@@ -13,6 +13,6 @@ class InvaderLayar(LayarView):
 
     def poi_from_mfru_item(self, item):
         return POI(id=item.id, lat=item.location.y, lon=item.location.x, title=item.name,
-                    line2=item.description, line3='Distance: %distance%', image_url=HOST+item.image.url)
+                    line2=item.description, line3='Distance: %distance%', image_url=HOST+item.image.url, actions=[{'label':'Opis dogodka', 'uri':item.url}])
 
 invader_layar = InvaderLayar()

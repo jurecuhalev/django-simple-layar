@@ -5,7 +5,8 @@ class Location(models.Model):
     description = models.TextField(null=True, blank=True)
     location = models.PointField()
     image = models.ImageField(upload_to="uploads", max_length=256, null=True, blank=True)
-
+    url = models.CharField(max_length=250, blank=True, null=True)
+    
     objects = models.GeoManager()
 
     def __unicode__(self): return self.name
