@@ -16,7 +16,7 @@ urlpatterns = patterns('',
     (r'^admin/', include(admin.site.urls)),
     #(r'^$', 'invaders.web.views.index'),
     
-    url(r'^layar_endpoint/$', 'web.views.invader_layar'),
+    url(r'^layar_endpoint/$', 'invaders.web.views.invader_layar'),
     (r'^admin-media/(.*)', 'django.views.static.serve', {'document_root' : settings.MEDIA_ROOT+'/admin-media', 'show_indexes' : True}),
 )
 
