@@ -1,0 +1,72 @@
+[
+    {
+        "pk": 1, 
+        "model": "web.location", 
+        "fields": {
+            "image": "uploads/sonia.png", 
+            "location": "POINT (15.6453359127044678 46.5577094407599006)", 
+            "name": "Sonia Cillari (Razstavni salon Rotov\u017e)", 
+            "description": "Sonia Cillari (Optofonica Showcase, Italija) (Razstavni salon Rotov\u017e?)\r\n\u00bbUmetni\u0161ka raziskovalka performativnih prostorov, kjer je \u010dlove\u0161ko telo v funkciji vmesnika. Ukvarja se z vzorci zavesti, zaznavanja in identitete. Medijska umetnica in arhitektka, ki kreira senzori\u010dne in perceptivne mehanizme v poglobljenih in raz\u0161irjenih okoljih\u00ab. \r\n"
+        }
+    }, 
+    {
+        "pk": 2, 
+        "model": "web.location", 
+        "fields": {
+            "image": "uploads/paul.png", 
+            "location": "POINT (15.6476426124572754 46.5595537596751967)", 
+            "name": "Paul Prudence (Udarnik)", 
+            "description": "Vizualni glasbenik, ki raziskuje na\u010dine zdru\u017eevanja zvoka in videa v realnem \u010dasu z uporabo generativnih ra\u010dunalni\u0161kih sistememov. Pisec, raziskovalec, predavatelj in ra\u010dunalni\u0161ki sinaesteti\u010dni umetnik deluje kot freelance interakcijski dizajner."
+        }
+    }, 
+    {
+        "pk": 3, 
+        "model": "web.location", 
+        "fields": {
+            "image": "uploads/lopez.png", 
+            "location": "POINT (15.6476426124572754 46.5595537596751967)", 
+            "name": "Francisco Lopez (Udarnik)", 
+            "description": "Avantgardni eksperimentalni glasbenik in zvo\u010dni umetnik. ki v svojem delovanju razvija izrazit in svojstven zvo\u010dni univerzum, oseben in ikonoklasti\u010den"
+        }
+    }, 
+    {
+        "pk": 4, 
+        "model": "web.location", 
+        "fields": {
+            "image": "uploads/oberzan.png", 
+            "location": "POINT (15.6476426124572754 46.5595537596751967)", 
+            "name": "Primo\u017e Ober\u017ean (Udarnik)", 
+            "description": "Glasbeni mehanik in mehanicisti\u010den glasbenik. Zvo\u010dni komponist, vizualist, graditelj zvokov, kymatik - s svojevrstnim glasbenim izrazom in nasprotovanjem potro\u0161ni\u0161ki dru\u017ebi"
+        }
+    }, 
+    {
+        "pk": 5, 
+        "model": "web.location", 
+        "fields": {
+            "image": "uploads/oberzan_1.png", 
+            "location": "POINT (15.6476426124572754 46.5595537596751967)", 
+            "name": "Primo\u017e Ober\u017ean (Udarnik)", 
+            "description": "Glasbeni mehanik in mehanicisti\u010den glasbenik. Zvo\u010dni komponist, vizualist, graditelj zvokov, kymatik - s svojevrstnim glasbenim izrazom in nasprotovanjem potro\u0161ni\u0161ki dru\u017ebi"
+        }
+    }, 
+    {
+        "pk": 6, 
+        "model": "web.location", 
+        "fields": {
+            "image": "uploads/pullinger.png", 
+            "location": "POINT (15.6476426124572754 46.5595537596751967)", 
+            "name": "Kate Pullinger, Chris Joseph: Inanimate Alice (Udarnik)", 
+            "description": "Zgodbe dekleta Alice podane digitalno (kombinacija interaktivnih multimedijskih vsebin in besedila) in odprte za sodelovanje bralcev. Zgodbe v ve\u010d jezikih in nabor izobra\u017eevalnega materiala, ki pomaga u\u010diteljem literature predstaviti e-literaturo ter niz 'orodij', ki u\u010dence vpeljejo v svet sodobne literarnosti ter njenega ustvarjanja/so-ustvarjanja."
+        }
+    }, 
+    {
+        "pk": 7, 
+        "model": "web.location", 
+        "fields": {
+            "image": "uploads/savski.png", 
+            "location": "POINT (15.6479752063751221 46.5595537596751967)", 
+            "name": "Borut Savski: Cirkulacija 2 (Vetrinjski dvorec)", 
+            "description": "Iniciativa Cirkulacija 2 s totalnimi eventi ponovno prisvaja javni prostor z v ta namen narejenimi svetlobnimi in zvo\u010dnimi sredstvi. Laserski snop kot \u010dopi\u010d in pro\u010delja javnih stavb kot platno."
+        }
+    }
+]
