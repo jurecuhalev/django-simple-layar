@@ -134,6 +134,7 @@ LOGGING = {
     }
 }
 
+HOST = '' # no ending slash
 try:
     from local_settings import *
 except ImportError:
@@ -144,4 +145,3 @@ try:
 except ImportError:
     pass
 
-HOST = '' # no ending slash
