@@ -143,3 +143,5 @@ try:
     from localsettings import *
 except ImportError:
     pass
+
+HOST = '' # no ending slash

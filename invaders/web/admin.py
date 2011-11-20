@@ -1,4 +1,8 @@
 from django.contrib.gis import admin
 from models import Location
 
-admin.site.register(Location) #, admin.GeoModelAdmin)
+class LocationAdmin(admin.ModelAdmin):
+	list_display=('name', 'location', 'image', 'url')
+
+
+admin.site.register(Location, LocationAdmin) #, admin.GeoModelAdmin)
